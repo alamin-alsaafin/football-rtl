@@ -1,0 +1,519 @@
+/*Edit Profile css code*/
+#edit-profile-sec .title
+{
+    line-height: 80px;
+    text-align: center;
+    height: 80px;
+    color: #fff;
+    background: #0c4107;
+    margin-top: 5%;
+}
+#edit-profile-sec form
+{
+    margin-top: 8%;
+}
+#edit-profile-sec input
+{
+    width: 64%;
+    margin-bottom: 5%;
+    height: 45px;
+    line-height: 45px;
+    box-shadow: 0 0 2px #0c4107;
+}
+#edit-profile-sec label span
+{
+    color: red;
+    margin-right: 5px;
+}
+#edit-profile-sec label
+{
+     width: 33%;
+    display: inline-block;
+    color: #000;
+}
+#edit-profile-sec select
+{
+    width: 64%;
+    margin-bottom: 5%;
+    box-shadow: 0 0 2px #0c4107;
+}
+#edit-profile-sec select:focus
+{
+    outline: none;
+}
+#edit-profile-sec .saveBTN
+{
+    display: block;
+    margin: auto;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+    background: #0c4107;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 0 0 2px #000;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    transition: 0.2s;
+}
+#edit-profile-sec .saveBTN:hover,
+#edit-profile-sec .saveBTN:focus
+{
+    box-shadow: 0 0 8px #000;
+}
+/***********************/
+
+/*my profile page css code*/
+#my-profile-sec .title
+{
+    line-height: 80px;
+    text-align: center;
+    height: 80px;
+    color: #fff;
+    background: #0c4107;
+    margin-top: 5%;
+}
+#my-profile-sec .my-profile-content
+{
+    background: #f8f8f8;
+    margin-bottom: 7%;
+    padding-bottom: 50px;
+}
+#my-profile-sec .profileIMG
+{
+    margin: 20px;
+}
+#my-profile-sec .profile-name
+{
+    margin-top: 5%;
+    color: #0c4107;
+    font-weight: bold;
+    margin-bottom: 7%;
+}
+#my-profile-sec .membership,#my-profile-sec .User-Rating,#my-profile-sec .Subscriber
+,#my-profile-sec .Last-visit
+{
+    color: #000;
+}
+#my-profile-sec h4 span
+{
+    margin-right: 20px;
+}
+#my-profile-sec h4 span i
+{
+    color: #ffdc11;
+}
+#my-profile-sec .edit-img-icon
+{
+    color: #0c4107;
+    font-size: 25px;
+}
+#my-profile-sec  .league-name
+{
+    font-size: 21px;
+    height: 60px;
+    line-height: 60px;
+    color: #0c4107;
+    font-weight: bold;
+    margin-top: 2%;
+}
+#my-profile-sec  .league-name i
+{
+    font-size: 28px;
+    margin-right: 10px;
+}
+#my-profile-sec  .exp-percent
+{
+    font-size: 23px;
+}
+#my-profile-sec .Precise-expectation
+{
+    font-size: 18px;
+}
+#my-profile-sec .signal-icon
+{
+    position: absolute;
+    top: 2%;
+    right: 60%;
+    font-size: 44px;
+}
+#my-profile-sec .moreBtn
+{
+    font-weight: bold;
+}#my-profile-sec .moreBtn:hover,
+#my-profile-sec .moreBtn:focus
+{
+    text-decoration: underline;
+}
+#my-profile-sec .moreBtn i
+{
+    color: #fff;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    text-align: center;
+    border-radius: 50px;
+    background: #0d4208;
+    font-size: 13px;
+    margin-right: 6px;
+}
+#my-profile-sec .ex-box
+{
+    height: 153px;
+    background: #ffdc11;
+    padding-top: 22px;
+    border-right: #f8f8f8 solid 1px;
+}
+#my-profile-sec .edit-profile,#my-profile-sec .edit-password
+{
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+@media (max-width: 1199px)
+{
+    #my-profile-sec .signal-icon {
+        right: 55%;
+    }
+}
+@media (max-width: 991px)
+{
+    #my-profile-sec .ex-box
+    {
+        border-bottom: #f8f8f8 solid 1px;
+    }
+}
+@media (max-width: 767px)
+{
+    #my-profile-sec .ex-box
+    {
+        border: #f8f8f8 solid 1px;
+    }
+}
+/************************/
+
+/*my profile page css code*/
+#change-profile-pic .title
+{
+    line-height: 80px;
+    text-align: center;
+    height: 80px;
+    color: #fff;
+    background: #0c4107;
+    margin-top: 5%;
+}
+#change-profile-pic .sub-title
+{
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    margin-top: 9%;
+}
+#change-profile-pic #prfilePic
+{
+    display: block;
+    margin: auto;
+    box-shadow: 0 0 1px #0c4107;
+}
+#change-profile-pic form .save
+{
+    display: block;
+    margin: auto;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+    background: #0c4107;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 0 0 2px #000;
+    margin-top: 11%;
+    margin-bottom: 37%;
+    transition: 0.2s;
+    width: 38%;
+    height: 40px;
+    line-height: 40px;
+}
+#change-profile-pic form .save:hover,
+#change-profile-pic form .save:focus
+{
+    box-shadow: 0 0 8px #000;
+}
+/************************/
+
+/*forget password page css code*/
+.forget-password-input
+{
+    display: block !important;
+    width: 100% !important;
+    height: 50px !important;
+    box-shadow: 0 0 2px #0c4107 !important;
+    border-radius: 5px !important;
+    padding-right: 20px !important;
+    color: #000 !important;
+    margin-top: 21% !important;
+}
+.reset-pass-btn
+{
+    width: 50% !important;
+    margin: auto !important;
+    border-radius: 5px !important;
+    background: #0c4107 !important;
+    color: #fff !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    margin-top: 11% !important;
+    /* margin-right: 26.5%; */
+    display: block !important;
+    margin-bottom: 7% !important;
+}
+.reset-pass-title
+{
+    color: #000 !important;
+    text-align: center !important;
+    /* display: block; */
+    margin-top: 15% !important;
+}
+@media (max-width: 991px)
+{
+    .reset-pass-btn
+    {
+        width: 57% !important;
+    }
+}
+/******************************/
+
+/********* my profile css (drob down)****/
+.profile-li:hover .profile-ul
+{
+    display: block !important;
+}
+.profile-ul 
+{
+    position: absolute !important;
+    background: #ffdc11 !important;
+    z-index: 9999999 !important;
+        display: none !important;
+    width: 13% !important;
+    right: 6% !important;
+    padding-top: 1% !important;
+    /*padding-right: 1% !important;*/
+    padding-bottom: 1%;
+    border:1px #0c4107 solid !important;
+    border-top: none !important;
+}
+.profile-ul li a
+{
+    transition: 0.3s !important;
+    display: block !important;
+    text-align: right !important;
+    width: 100%;
+}
+.profile-ul li:hover 
+{
+    background: #0c4107 !important;
+    color: #fff !important;
+}
+.profile-ul li:hover a ,.profile-ul li:hover i
+{
+    color: #fff !important;
+}
+.profile-ul li
+{
+    float: none !important;
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-bottom: 2% !important;
+    padding-right: 29px !important;
+}
+
+@media (max-width: 1199px)
+{
+    .profile-ul
+    {
+        right: 8.5% !important;
+    }
+    .profile-ul li
+    {
+        padding-right: 20px !important;
+    }
+}
+@media (max-width: 991px)
+{
+    .arrowToDown
+{
+        position: absolute !important;
+        right: 11.5% !important;
+        top: 63% !important;
+        font-size: 9px !important;
+}
+.profile-ul
+{
+        width: 24% !important;
+}
+}
+@media (max-width: 767px)
+{
+    .arrowToDown {
+        position: absolute !important;
+        right: 20.5% !important;
+        top: 70% !important;
+        font-size: 9px !important;
+    }
+    .profile-ul {
+        width: 35% !important;
+        right: 19.5% !important;
+    }
+    .profile-ul li {
+        padding-right: 27px !important;
+    }
+}
+/*******************************************/
+
+/* WORLD CUP additional css code for select joker menu */
+.select-joker
+{
+    margin-top: 5%;
+}
+.select-joker:focus
+{
+    outline: none;
+}
+/*******************************************************/
+.sportsmagazine-topstrip-two{
+    border-color: #ffdc11;
+    background: #ffdc11;
+}
+.sportsmagazine-user-link li i{
+    color: #000000;
+}
+.sportsmagazine-color, .sportsmagazine-colorhover:hover, .navbar-nav > li:hover > a, .navbar-nav > li.active > a, .sportsmagazine-megalist li:hover a, .widget_twitter ul li p a, .widget_trending_news .nav-tabs li.active a, .widget_trending_news .nav-tabs li:hover a, .widget_twitter ul li p a, .widget_awards .slick-arrow:hover i, .sportsmagazine-partner-slider .slick-arrow:hover i, .sportsmagazine-bloglarge ul li:hover .sportsmagazine-readmore-btn, .sportsmagazine-player-thumb-text h3 span, .sportsmagazine-player-list ul li:hover .sportsmagazine-player-list-text h5 a, .sportmagazine-score-counter p span, .sportsmagazine-modern-player figure figcaption h3 > span, .star-rating:before, .star-rating-box:before, .sportsmagazine-shop-grid section > .price-cart{
+    color: #b5d350;
+}
+.sportsmagazine-banner-text h1{
+    color: #ffdc11;
+}
+.sportsmagazine-banner-upcoming-match,
+.sportsmagazine-classic-heading:after{
+    background-color: #ffdc11;
+}
+.sportsmagazine-banner-upcoming-match span{
+    padding: 48px 30px 0px 42px;
+}
+.sportsmagazine-bgcolor, .sportsmagazine-classic-heading:before{
+    background-color: #83a803;
+}
+.sportsmagazine-banner-two .slick-dots li.slick-active button{
+    border-bottom: 2px solid #b5d350;
+    color: #b5d350;
+}
+.sportsmagazine-modal-close:before, .sportsmagazine-fixture-slider-layer ul:before, .sportsmagazine-featured-slider .slick-arrow-left.slick-arrow:hover:before, .widget_trending_news .nav-tabs li.active a:after, .sportsmagazine-modren-team-one:before, .sportsmagazine-modren-team-two:before{
+    border-top-color:#83a803;
+}
+.sportsmagazine-fixture-slider-layer ul li{
+    color: #fff;
+}
+.sportsmagazine-fixture-slider .slick-arrow:hover{
+    background-color: #0c4107;
+}
+.sportsmagazine-fixture-slider .slick-arrow:hover i{
+    color: #fff;
+}
+
+
+/* Word Cup page css code */
+/*------------------------*/
+#internal-page-word-cup .title
+{
+    text-align: center;
+    height: 76px;
+    line-height: 76px;
+    color: #fff;
+    background: #0c4107;
+    margin-top: 5%;
+}
+#internal-page-word-cup .select-level
+{
+    height: 40px;
+    line-height: 40px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background: #e9ff9b;
+}
+#internal-page-word-cup .select-level:focus
+{
+    outline: none;
+}
+#internal-page-word-cup td a
+{
+    float: right;
+}
+#internal-page-word-cup .group-name
+{
+    background: #e9ff9b;
+    height: 40px;
+    color: #000;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+.internal-page-word-cup .title
+{
+    text-align: center;
+    height: 76px;
+    line-height: 76px;
+    color: #fff;
+    background: #0c4107;
+    margin-top: 5%;
+}
+.internal-page-word-cup .select-level
+{
+    height: 40px;
+    line-height: 40px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background: #e9ff9b;
+}
+.internal-page-word-cup .no-results
+{
+    height: 167px;
+    line-height: 167px;
+    text-align: center;
+    font-size: 30px;
+}
+.internal-page-word-cup .no-data-available
+{
+    text-align: center !important;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+}
+@media (max-width: 1199px)
+{
+    #internal-page-word-cup .main-table
+    {
+        margin-right: 0;
+        width: 100%;
+    }
+}
+@media (max-width: 1199px)
+{
+    #internal-page-word-cup img
+    {
+        display: none;
+    }
+    #internal-page-word-cup th
+    {
+        padding: 0;
+    }
+    #internal-page-word-cup .group-name
+    {
+        /*transform: rotate(90deg);*/
+        width: 161%;
+    }
+    #internal-page-word-cup .main-table
+    {
+        padding-right: 10px;
+    }
+}
+/*-----------End-------------*/
